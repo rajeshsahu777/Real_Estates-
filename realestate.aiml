@@ -1,0 +1,18 @@
+<aiml version="1.0.1" encoding="UTF-8">
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello! I can help you with real estate queries.</template>
+  </category>
+
+  <category>
+    <pattern>PRICE *</pattern>
+    <template>
+      Please provide area, bedrooms, and city so I can predict.
+    </template>
+  </category>
+
+  <category>
+    <pattern>THANK YOU</pattern>
+    <template>You’re welcome! Happy to help.</template>
+  </category>
+</aiml>
